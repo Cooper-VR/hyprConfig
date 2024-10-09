@@ -1,0 +1,55 @@
+.rightBar { 
+  font-family: Arimo Nerd Font;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+} 
+.leftBar {
+  font-family: Roboto;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+#pulseaudio-slider trough {
+    min-height: 10px;
+    min-width: 120px;
+    border-radius: 5px;
+    background-color: black;
+}
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: green;
+}
+#clock{
+    background-color: rgba( 0, 67,115, 0.3);
+    border-radius: 6px;
+    padding: 6px;
+    margin: 6px;
+    box-shadow: 5px 2px 2px rgba(0, 60, 97, 0.5);
+}
+
+#pulseaudio{
+    background-color: rgba( 0, 67,115, 0.3);
+    border-radius: 6px;
+    padding: 6px;
+    margin: 6px;
+    box-shadow: 5px 2px 2px rgba(0, 60, 97, 0.5);
+}
+
+#cpu{
+    background-color: rgba( 0, 67,115, 0.3);
+    border-radius: 6px;
+    padding: 6px;
+    margin: 6px;
+    box-shadow: 5px 1px 1px rgba(0, 50, 84, 0.1);
+}

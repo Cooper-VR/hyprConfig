@@ -1,0 +1,38 @@
+[
+{
+    "name": "leftBar",
+    "output": "DP-1",
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/mode", "cpu"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["pulseaudio"],
+    "pulseaudio":{
+        "format": "Volume: {volume}"
+    },
+    "cpu": {
+    "format": "CPU usage: {usage}%",
+    "interval": 1
+  },
+
+    "sway/window": {
+        "max-length": 50
+    },
+
+
+},
+{
+    "name": "rightBar",
+    "output": "DP-3",
+    "layer": "top",
+    "modules-left": ["pulseaudio/slider", "sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": [ "clock"],
+    "sway/window": {
+        "max-length": 50
+    },
+
+    }
+
+]
+
+
